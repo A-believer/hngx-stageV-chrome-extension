@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "HelpMeOut",
+    "version": "0.0.1",
+    "description": "Helps users record whats on their screen",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "HelpMeOutLogo.png"
+    },
+    "icons": {
+        "32": "HelpMeOutLogo.png"
+    },
+    "permissions": [
+        "activeTab",
+        "desktopCapture",
+        "audioCapture",
+        "videoCapture"
+    ]
+}
